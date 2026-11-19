@@ -7,8 +7,6 @@ Este diretório contém os notebooks Jupyter (`.ipynb`) e os scripts em Python q
 
 ## 📚 Conteúdo do Capítulo
 
-Os códigos aqui presentes estão organizados de acordo com as seções do livro. *(Nota: A seção 1.4 não possui material computacional associado neste repositório).*
-
 - **1.1. Conceitos Básicos e Sistemas Termodinâmicos:** Scripts introdutórios definindo variáveis de sistema fechado e volume de controle.
 - **1.2. Propriedades e Postulado de Estado:** Exemplos de conversão de unidades (temperatura, pressão) e cálculo de propriedades intensivas e extensivas.
 - **1.3. Configuração do Ambiente Python (Google Colab):** Notebook base com as importações fundamentais (`numpy`, `matplotlib`) e testes de ambiente.
