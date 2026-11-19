@@ -1,8 +1,9 @@
-# Capítulo 1: Fundamentos de Termodinâmica e Introdução Computacional
+# Termodinâmica Aplicada com Python e CoolProp
 
-Bem-vindo ao repositório do **Capítulo 1** do livro *"Termodinâmica Aplicada com Python e CoolProp: Resolução de problemas e simulação de processos para Engenharia de Alimentos"*. 
-
+Bem-vindo ao repositório do livro *"Termodinâmica Aplicada com Python e CoolProp: Resolução de problemas e simulação de processos para Engenharia de Alimentos"*.
 Este diretório contém os notebooks Jupyter (`.ipynb`) e os scripts em Python que acompanham a parte teórica introdutória do livro, demonstrando como sair das tabelas termodinâmicas impressas para o ambiente computacional.
+
+## Capítulo 1: Fundamentos de Termodinâmica e Introdução Computacional
 
 ## 📚 Conteúdo do Capítulo
 
