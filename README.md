@@ -1,22 +1,44 @@
-# Termodinâmica Aplicada com Python e CoolProp
+# Códigos: Termodinâmica Aplicada com Python e CoolProp
 
-Bem-vindo ao repositório do livro *"Termodinâmica Aplicada com Python e CoolProp: Resolução de problemas e simulação de processos para Engenharia de Alimentos"*.
-Este diretório contém os notebooks Jupyter (`.ipynb`) e os scripts em Python que acompanham a parte teórica introdutória do livro, demonstrando como sair das tabelas termodinâmicas impressas para o ambiente computacional.
+Bem-vindo ao repositório de códigos do livro *"Termodinâmica Aplicada com Python e CoolProp: Resolução de problemas e simulação de processos para Engenharia de Alimentos"*. 
 
-## Capítulo 1: Fundamentos de Termodinâmica e Introdução Computacional
+Este repositório contém os Jupyter Notebooks (`.ipynb`) apresentados ao longo da obra, focados na transição das tabelas termodinâmicas tradicionais para o ambiente computacional, facilitando o cálculo de propriedades e a construção de diagramas.
 
-## 📚 Conteúdo do Capítulo
+---
 
-- **1.1. Conceitos Básicos e Sistemas Termodinâmicos:** Scripts introdutórios definindo variáveis de sistema fechado e volume de controle.
-- **1.2. Propriedades e Postulado de Estado:** Exemplos de conversão de unidades (temperatura, pressão) e cálculo de propriedades intensivas e extensivas.
-- **1.3. Configuração do Ambiente Python (Google Colab):** Notebook base com as importações fundamentais (`numpy`, `matplotlib`) e testes de ambiente.
-- **1.4. Primeiros Passos com CoolProp:** Introdução à biblioteca `CoolProp`. Como obter entalpia, entropia e volume específico de fluidos refrigerantes e água sem usar tabelas manuais.
+## 📂 Estrutura do Repositório
 
-## ⚙️ Pré-requisitos e Instalação
+### Capítulo 1 — O Ambiente de Trabalho e Conceitos Fundamentais
+Este capítulo introduz o uso do Python e da biblioteca CoolProp para cálculos termodinâmicos iniciais e operações básicas.
 
-Recomendamos fortemente o uso do **Google Colab** para rodar os exemplos sem a necessidade de instalação local. No entanto, se preferir rodar em sua própria máquina (via Jupyter Notebook ou VS Code), você precisará instalar a biblioteca científica principal.
+* **`cod_1_1_variaveis_operacoes_si.ipynb`** 
+  * *Descrição:* Declaração de variáveis, operações aritméticas básicas e formatação de saída no Sistema Internacional (SI).
+* **`cod_1_2_funcao_loop_temperaturas.ipynb`** 
+  * *Descrição:* Função personalizada e laço de repetição (`for`) para conversão de escalas de temperatura.
+* **`cod_1_3_gas_ideal_isotermas.ipynb`**
+  * *Descrição:* Cálculo vetorizado (NumPy), tabulação e plotagem do diagrama $P\text{-}\hat{V}$ de isotermas de gás ideal.
+* **`cod_1_4_propriedades_agua_coolprop.ipynb`**
+  * *Descrição:* Consulta de propriedades da água líquida e determinação da temperatura de ebulição a vácuo utilizando a função `PropsSI` do CoolProp.
 
-No terminal ou na primeira célula do seu notebook, execute:
+### Capítulo 2 — Mudança de Fase e Diagramas Termodinâmicos
+Este capítulo aborda o comportamento de fluidos puros sob mudança de fase, cálculo de título e a construção de diagramas termodinâmicos essenciais.
 
-```bash
-pip install CoolProp numpy matplotlib
+* **`cod_2_1_diagnostico_fase_saturacao.ipynb`**
+  * *Descrição:* Diagnóstico automático de fase (`PhaseSI`) e determinação do calor latente de vaporização do fluido R134a.
+* **`cod_2_2_calculo_titulo_mistura.ipynb`**
+  * *Descrição:* Verificação da região bifásica e cálculo inverso do título de vapor ($x$).
+* **`cod_2_3_diagrama_Tv_agua.ipynb`**
+  * *Descrição:* Construção computacional do diagrama de fases $T\text{-}\hat{V}$ (domo de saturação) para a água.
+* **`cod_2_4_diagrama_Ph_r134a.ipynb`**
+  * *Descrição:* Construção computacional do diagrama frigorífico $P\text{-}\hat{H}$ para o fluido refrigerante R134a.
+
+---
+
+## 🚀 Como Utilizar
+
+Todos os ficheiros deste repositório estão no formato Jupyter Notebook (`.ipynb`). 
+
+A forma mais simples e recomendada de os executar é utilizando o **Google Colab**:
+1. Abra o ficheiro desejado aqui no GitHub.
+2. Se tiver a extensão do Colab ou se o botão estiver disponível, clique em **"Open in Colab"**.
+3. Em alternativa, pode descarregar os ficheiros e abri-los localmente utilizando o Jupyter Notebook ou o VS Code, garantindo que instala as dependências necessárias executando: `pip install CoolProp numpy pandas matplotlib`.
