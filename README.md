@@ -55,17 +55,17 @@ Este capítulo aplica os balanços de massa e energia da Primeira Lei em regime 
 
 - **`cod_4_1_bocal_convergente_vapor.ipynb`**
   - *Descrição:* Balanço de energia em regime permanente para determinação da velocidade de saída de vapor em um bocal convergente.
-- **`cod_4_2_turbina_vapor_nao_adiabatica.ipynb`**[cite: 2]
+- **`cod_4_2_turbina_vapor_nao_adiabatica.ipynb`**
   - *Descrição:* Análise energética e cálculo de potência gerada em uma turbina a vapor não adiabática com perdas térmicas.
-- **`cod_4_3_bombeamento_lavagem_industrial.ipynb`**[cite: 2]
+- **`cod_4_3_bombeamento_lavagem_industrial.ipynb`**
   - *Descrição:* Dimensionamento energético e cálculo de potência de bombeamento em sistema de lavagem industrial.
-- **`cod_4_4_valvula_estrangulamento_r134a.ipynb`**[cite: 2]
+- **`cod_4_4_valvula_estrangulamento_r134a.ipynb`**
   - *Descrição:* Expansão isoentálpica e determinação do título após passagem do fluido refrigerante R134a por uma válvula de estrangulamento.
-- **`cod_4_5_dessuperaquecedor_mistura.ipynb`**[cite: 2]
+- **`cod_4_5_dessuperaquecedor_mistura.ipynb`**
   - *Descrição:* Balanço de massa e energia em câmara de mistura (dessuperaquecedor) por injeção direta de água líquida.
-- **`cod_4_6_pasteurizador_placas_parametrico.ipynb`**[cite: 2]
+- **`cod_4_6_pasteurizador_placas_parametrico.ipynb`**
   - *Descrição:* Modelagem e análise paramétrica da troca térmica em um pasteurizador a placas para processamento de alimentos.
-- **`cod_4_7_transiente_enchimento_tanque_brentq.ipynb`**[cite: 2]
+- **`cod_4_7_transiente_enchimento_tanque_brentq.ipynb`**
   - *Descrição:* Balanço de energia em regime transiente durante o enchimento de um tanque rígido utilizando o método numérico `brentq` do SciPy.
 
 ---
